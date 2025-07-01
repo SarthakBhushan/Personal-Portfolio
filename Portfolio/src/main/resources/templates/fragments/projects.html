@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<th:block th:fragment="projects-section">
+
+
+    <section class="section projects" id="projects">
+
+        <div class="container">
+            <div class="section-title-container">
+                <h2 class="section-title">My Work</h2>
+                <p class=" section-subtitle">
+                    Explore some of my projects.
+                </p>
+            </div>
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/images/building.gif" alt="Journal App">
+                        <div class="project-overlay"></div>
+                        <div class="project-tags">
+                            <span class="project-tag">Java</span>
+                            <span class="project-tag">Spring Boot</span>
+                            <span class="project-tag">Spring Security</span>
+                            <span class="project-tag">Spring Authentication</span>
+                            <span class="project-tag">Mongo DB</span>
+                            <span class="project-tag">Post Man</span>
+                            <span class="project-tag">AWS</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Journal App using Spring Boot.
+                        </h3>
+                        <p class="project-description">In this project I have built a journal app using Spring Boot, also integrated Spring Security and an external weather API.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/SarthakBhushan/My-Journal-" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/images/minecraft.jpg" alt="Voxel Engine">
+                        <div class="project-overlay"></div>
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">Moderngl</span>
+                            <span class="project-tag">PyGame</span>
+                            <span class="project-tag">PyGLM</span>
+                            <span class="project-tag">numba</span>
+                            <span class="project-tag">opensimplex</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Voxel Engine.
+                        </h3>
+                        <p class="project-description">A lightweight voxel engine built in Python, capable of rendering and interacting with 3D block-based worlds.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/SarthakBhushan/minecraft-clone" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/images/facerecog.webp" alt="Face Recognition">
+                        <div class="project-overlay"></div>
+                        <div class="project-tags">
+                            <span class="project-tag">Java</span>
+                            <span class="project-tag">Open CV</span>
+                            <span class="project-tag">Haar Cascades</span>
+                            <span class="project-tag">Swing </span>
+                            <span class="project-tag">Maven </span>
+                            <span class="project-tag">Webcam Capture API</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Face Recognition using Open CV.
+                        </h3>
+                        <p class="project-description">A Java-based face recognition system using OpenCV for real-time face detection and identification.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/SarthakBhushan/face-detection" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</th:block>
+</html>
