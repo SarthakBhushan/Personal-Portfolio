@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sarthak Bhushan - Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!-- animation-->
+    <div th:replace="~{fragments/loader :: loader}"></div>
+
+    <!--Background shapes-->
+    <div class="floating-shape shape-1"></div>
+    <div class="floating-shape shape-2"></div>
+    <div class="floating-shape shape-3"></div>
+
+    <!--header-->
+    <div th:replace="~{fragments/header :: site-header}"></div>
+
+    <!--hero-->
+    <div th:replace="~{fragments/hero :: hero-section}"></div>
+
+
+    <!--about-->
+    <div th:replace="~{fragments/about :: about-section}"></div>
+
+
+
+    <!--projects-->
+    <div th:replace="~{fragments/projects :: projects-section}"></div>
+
+
+
+    <!--experience-->
+    <div th:replace="~{fragments/experience :: experience-section}"></div>
+
+
+    <!--achievements-->
+    <div th:replace="~{fragments/achievements :: achievements-section}"></div>
+
+
+    <!--contacts-->
+    <div th:replace="~{fragments/contacts :: contacts-section}"></div>
+
+
+    <!--footer-->
+    <div th:replace="~{fragments/footer :: footer-section}"></div>
+
+
+
+
+
+    <!--custom script-->
+
+
+
+
+    <script src="/js/script.js"></script>
+</body>
+</html>

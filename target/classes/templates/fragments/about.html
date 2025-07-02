@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<th:block th:fragment="about-section">
+
+    <section class="section-about" id="about">
+        <div class="container">
+            <div class="section-title-container">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">
+                    My background and skills
+                </p>
+            </div>
+
+            <div class="about-container">
+                <div class="about-content">
+                    <div class="about-tagline">My Background</div>
+                    <h3 class="about-heading">Currently, just as student.</h3>
+                    <p class="about-text">I am a student with a background in Electronics and Communication Engineering, working on a variety of software and system-level projects. I focus on blending core engineering concepts with software development to create practical, functional solutions.</p>
+                    <p class="about-text">My experience includes developing web portfolios using HTML and CSS, creating a Rubik's Cube simulator in Java with LWJGL, and working on face and hand sign detection systems using OpenCV. I’ve also explored 3D graphics, real-time simulations, and interactive interfaces in Java and Python environments.</p>
+                    <p class="about-text">I am currently building my skills in backend development using Spring Boot and frontend technologies like React and Angular. Alongside this, I am improving my problem-solving abilities through competitive programming and deepening my understanding of machine learning for real-world applications.</p>
+                    <!--Skills-->
+                    <div class="skills-container">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <div class="skill-name">Java</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="skill-name">Python</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-c"></i>
+                            </div>
+                            <div class="skill-name">C</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/OpenCV_Logo_with_text_svg_version.svg"
+                                     alt="OpenCV"
+                                     style="width:30px; height:30px; filter: invert(24%) sepia(84%) saturate(560%) hue-rotate(240deg) brightness(95%) contrast(90%);">
+                            </div>
+                            <div class="skill-name">OpenCV</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="https://webimages.mongodb.com/_com_assets/cms/mongodb_logo1-76twgcu2dm.png"
+                                     alt="MongoDB"
+                                     style="width: 50px; height: auto; filter: brightness(0) saturate(100%) invert(20%) sepia(90%) saturate(600%) hue-rotate(240deg);">
+                            </div>
+                            <div class="skill-name">MongoDB</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <div class="skill-name">Spring Boot</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="about-image-container">
+                        <div class="about-image-bg"></div>
+                        <img src="/images/coding.gif" alt="about" class="about-image">
+                    </div>
+                    <div class="about-decorations">
+                        <div class="about-decoration"></div>
+                        <div class="about-decoration"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+</th:block>
+</html>
